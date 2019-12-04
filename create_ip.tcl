@@ -4,8 +4,6 @@ set PART_NAME xc7z020clg400-1
 create_project $PROJECT_NAME ./$PROJECT_NAME -part $PART_NAME -force
 
 set FILES [list \
-           ../$PROJECT_NAME/src/aq_axi_getfreq_ctrl.v \
-           ../$PROJECT_NAME/src/aq_axi_getfreq_ls.v \
            ../$PROJECT_NAME/src/aq_axi_getfreq.v \
           ]
 
